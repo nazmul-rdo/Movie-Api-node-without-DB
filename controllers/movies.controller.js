@@ -25,9 +25,7 @@ const MoviesUpdate = (req, res) => {
 
     const { title, genere, rating, year, desc } = req.body;
 
-    const userID = dummyMovies.filter(m => m.id === id)
-    
-    userID.forEach(m => {
+    dummyMovies.filter(m => m.id === id).forEach(m => {
         m.title = title;
         m.genere = genere;
         m.rating = rating;
