@@ -10,10 +10,6 @@ For development, you will only need Node.js and a node global package, npm, inst
     $ cd Movie-Api-node-without-DB
     $ npm install
 
-## Configure app Create a .env file
-
-    $ PORT= 3000;
-
 Running the project
 
     $ npm start
